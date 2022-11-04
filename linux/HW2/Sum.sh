@@ -2,7 +2,7 @@
 while true
 do
 read -p "Please enter the two numbers: " a b
-if [[ -z $a ]] | [[ -z $b ]]
+if [[ -z $a ]] || [[ -z $b ]]
 then
         echo "Wrong input!"
 elif [[ $((a+b)) -lt 100 ]]
