@@ -11,7 +11,7 @@ else
 find $tmp -type f | du -a | sort -rh | head -10
 fi
 read -p "Again?  Yes=1 No=2  " ans
-if [[ ans -eq 2 ]]
+if [[ $ans -eq 2 ]]
 then break
 fi
 done

@@ -10,7 +10,7 @@ cel=$((fer-32))
 echo "The temperature in Celsius is $((cel*5/9)) C"
 fi
 read -p "Again?  Yes=1 No=2  " ans
-if [[ ans -eq 2 ]]
+if [[ $ans -eq 2 ]]
 then
         break
 fi
